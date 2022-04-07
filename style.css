@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    color: grey;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    background-color: gainsboro;
+    padding: 30px;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: calc(100%/6);
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 0px rgb(29, 8, 8);
+}
+img{
+    width: 100%;
+    
+}
+.col:last-child{
+    margin-right: 0px;
+}
+.icon-list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.content{
+    padding: 6px;
+    background-color: white;
+}
+
+div .fas{
+    color: yellow;
+}
+
+.discount-price{
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+.discount{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.price{
+    margin-top: 4px;
+    color: red;
+    font-weight: 800;
+    font-size: 16px;
+}
